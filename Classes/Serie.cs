@@ -24,8 +24,7 @@ namespace DIO.Series
 
         public override string ToString()
 		{
-			// Environment.NewLine https://docs.microsoft.com/en-us/dotnet/api/system.environment.newline?view=netcore-3.1
-            string retorno = "";
+			string retorno = "";
             retorno += "Gênero: " + this.Genero + Environment.NewLine;
             retorno += "Titulo: " + this.Titulo + Environment.NewLine;
             retorno += "Descrição: " + this.Descricao + Environment.NewLine;
